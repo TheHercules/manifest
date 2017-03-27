@@ -153,6 +153,7 @@
   <project name="build" path="build" remote="deso" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
   <!-- END DESO -->
