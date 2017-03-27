@@ -91,14 +91,9 @@
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="platform_bionic" path="bionic" remote="aosp-caf" />
-  <project name="platform_build" path="build" remote="aosp-caf" >
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
-  <project name="platform_external_bash" path="external/bash" remote="aosp-caf" />
-  <project name="platform_external_busybox" path="external/busybox" remote="aosp-caf" />
   <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="aosp-caf" />
   <project name="platform_external_exfat" path="external/exfat" remote="aosp-caf" />
@@ -133,7 +128,6 @@
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosp-caf" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosp-caf" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_extras" path="system/extras" remote="aosp-caf" />
@@ -142,7 +136,6 @@
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
@@ -155,5 +148,13 @@
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- ENG SUBSTRATUM -->
+
+  <!-- BEGIN DESO -->
+  <project name="build" path="build" remote="deso" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
+  <project name="vendor_deso" path="vendor/deso" remote="deso" />
+  <!-- END DESO -->
 
 </manifest>
