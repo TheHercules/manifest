@@ -151,6 +151,7 @@
   <project name="build" path="build" remote="deso" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="frameworks_support" path="frameworks/support" remote="deso" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
