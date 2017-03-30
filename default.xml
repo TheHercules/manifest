@@ -13,6 +13,10 @@
            fetch="https://github.com/DesolationROM"
            revision="refs/heads/n" />
 
+  <remote  name="deso-devices"
+           fetch="https://github.com/DesolationROM-Devices"
+           revision="refs/heads/n" />
+
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
            review="codeaurora.org"/>
