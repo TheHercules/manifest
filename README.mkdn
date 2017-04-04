@@ -141,6 +141,7 @@ Advanced Building Techniques
 Credits
 --------------------
 - Google for AOSP
+- Sanyam Jain for AOSP-CAF
 - DariosF and Purity ROM
 - AOSPAL
 - CyanogenMod
