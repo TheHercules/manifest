@@ -151,6 +151,7 @@
   </project>
   <project name="frameworks_base" path="frameworks/base" remote="deso" />
   <project name="frameworks_support" path="frameworks/support" remote="deso" />
+  <project name="manifest" path="manifest" remote="deso" />
   <project name="packages_apps_DesolatedCore" path="packages/apps/DesolatedCore" remote="deso" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
