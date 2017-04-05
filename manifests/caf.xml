@@ -154,6 +154,7 @@
   <project name="manifest" path="manifest" remote="deso" />
   <project name="packages_apps_DesolatedCore" path="packages/apps/DesolatedCore" remote="deso" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="deso" />
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />

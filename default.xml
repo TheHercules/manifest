@@ -403,7 +403,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" />
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" />
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
-  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" />
   <project groups="pdk-fs" name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio" />
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
