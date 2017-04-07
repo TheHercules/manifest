@@ -21,7 +21,6 @@
   <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-4.4" />
   <remove-project name="platform/abi/cpp" />
-  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
@@ -85,7 +84,6 @@
   <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
-  <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
@@ -131,6 +129,7 @@
   <!-- ENG SUBSTRATUM -->
 
   <!-- BEGIN DESO -->
+  <project name="art" path="art" remote="deso" />
   <project name="bionic" path="bionic" remote="deso" />
   <project name="build" path="build" remote="deso" >
   <copyfile src="core/root.mk" dest="Makefile" />
