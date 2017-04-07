@@ -370,7 +370,6 @@
   <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf" />
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" />
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" />
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
   <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" />
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" />
