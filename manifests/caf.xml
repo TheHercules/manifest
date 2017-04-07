@@ -125,7 +125,6 @@
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_media" path="system/media" remote="aosp-caf" />
-  <project name="platform_system_netd" path="system/netd" remote="aosp-caf" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
@@ -160,6 +159,7 @@
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="deso" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
   <project name="system_extras" path="system/extras" remote="deso" />
+  <project name="system_netd" path="system/netd" remote="deso" />
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
   <!-- END DESO -->
 
