@@ -122,7 +122,6 @@
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
-  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_media" path="system/media" remote="aosp-caf" />
@@ -158,6 +157,7 @@
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="deso" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="deso" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
   <project name="system_extras" path="system/extras" remote="deso" />
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
