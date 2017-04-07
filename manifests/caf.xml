@@ -119,7 +119,6 @@
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_media" path="system/media" remote="aosp-caf" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
-  <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
@@ -155,6 +154,7 @@
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="deso" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="deso" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
+  <project name="system_vold" path="system/vold" remote="deso" />
   <project name="system_extras" path="system/extras" remote="deso" />
   <project name="system_netd" path="system/netd" remote="deso" />
   <project name="system_sepolicy" path="system/sepolicy" remote="deso" />
