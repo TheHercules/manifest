@@ -110,7 +110,6 @@
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosp-caf" />
-  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
@@ -144,6 +143,7 @@
   </project>
   <project name="frameworks_base" path="frameworks/base" remote="deso" />
   <project name="frameworks_native" path="frameworks/native" remote="deso" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="deso" />
   <project name="frameworks_support" path="frameworks/support" remote="deso" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="deso" />
   <project name="manifest" path="manifest" remote="deso" />
