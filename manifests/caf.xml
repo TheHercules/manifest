@@ -63,7 +63,6 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/qcom" />
-  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
@@ -159,6 +158,7 @@
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
   <project name="system_extras" path="system/extras" remote="deso" />
   <project name="system_netd" path="system/netd" remote="deso" />
+  <project name="system_sepolicy" path="system/sepolicy" remote="deso" />
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
   <!-- END DESO -->
 

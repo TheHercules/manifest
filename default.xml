@@ -508,7 +508,6 @@
   <project name="platform/system/nvram" path="system/nvram" />
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" />
   <project groups="pdk" name="platform/system/security" path="system/security" />
-  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" />
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl" />
   <project name="platform/system/tpm" path="system/tpm" />
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" />
