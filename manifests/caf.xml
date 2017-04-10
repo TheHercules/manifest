@@ -127,6 +127,7 @@
   <!-- BEGIN DESO -->
   <project name="art" path="art" remote="deso" />
   <project name="bionic" path="bionic" remote="deso" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="deso" />
   <project name="build" path="build" remote="deso" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
