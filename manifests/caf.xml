@@ -16,7 +16,6 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/qcom/common" />
-  <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-4.4" />
@@ -54,8 +53,6 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/qcom" />
@@ -82,7 +79,6 @@
 
   <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
@@ -96,9 +92,7 @@
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
-  <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
-  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
@@ -107,18 +101,12 @@
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
-  <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
-  <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_media" path="system/media" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
-
-  <!-- BEGIN CAF -->
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
-  <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
@@ -131,7 +119,10 @@
   <project name="build" path="build" remote="deso" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="deso" />
   <project name="external_skia" path="external/skia" remote="deso" />
+  <project name="external_tinycompress" path="external/tinycompress" remote="deso" />
+  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="deso" />
   <project name="frameworks_av" path="frameworks/av" remote="deso" />
   <project name="frameworks_base" path="frameworks/base" remote="deso" />
   <project name="frameworks_native" path="frameworks/native" remote="deso" />
@@ -149,14 +140,16 @@
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_OpenCamera" path="packages/apps/OpenCamera" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
-  <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
+  <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="deso" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="deso" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="deso" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="deso" />
-  <project name="system_vold" path="system/vold" remote="deso" />
+  <project name="system_bt" path="system/bt" remote="deso" />
+  <project name="system_core" path="system/core" remote="deso" />
   <project name="system_extras" path="system/extras" remote="deso" />
   <project name="system_netd" path="system/netd" remote="deso" />
   <project name="system_sepolicy" path="system/sepolicy" remote="deso" />
+  <project name="system_vold" path="system/vold" remote="deso" />
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
   <!-- END DESO -->
 
