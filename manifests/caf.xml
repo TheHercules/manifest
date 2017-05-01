@@ -161,5 +161,6 @@
   <!-- END DESO -->
 
   <project name="REV3NT3CH/aarch64-linux-gnu-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.x" remote="bitbucket" revision="n" />
+  <project name="REV3NT3CH/arm-linux-gnueabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-6.x" remote="bitbucket" revision="n" />
 
 </manifest>
