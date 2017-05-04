@@ -120,6 +120,8 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="deso" />
+  <project name="external_boringssl" path="external/boringssl" remote="deso" />
+  <project name="external_giflib" path="external/giflib" remote="deso"/>
   <project name="external_skia" path="external/skia" remote="deso" />
   <project name="external_tinycompress" path="external/tinycompress" remote="deso" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="deso" />

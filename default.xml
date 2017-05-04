@@ -94,7 +94,6 @@
   <project groups="pdk" name="platform/external/avahi" path="external/avahi"/>
   <project groups="pdk" name="platform/external/bison" path="external/bison"/>
   <project groups="pdk" name="platform/external/blktrace" path="external/blktrace"/>
-  <project groups="pdk" name="platform/external/boringssl" path="external/boringssl"/>
   <project groups="pdk" name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/brctl" path="external/brctl" />
   <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff"/>
@@ -148,7 +147,6 @@
   <project groups="pdk" name="platform/external/freetype" path="external/freetype"/>
   <project groups="pdk" name="platform/external/fsck_msdos" path="external/fsck_msdos"/>
   <project groups="pdk" name="platform/external/gemmlowp" path="external/gemmlowp"/>
-  <project groups="pdk,qcom_msm8x26" name="platform/external/giflib" path="external/giflib"/>
   <project groups="pdk" name="platform/external/glide" path="external/glide"/>
   <project groups="pdk" name="platform/external/gmock" path="external/gmock"/>
   <project groups="pdk" name="platform/external/google-benchmark" path="external/google-benchmark"/>
